@@ -2,8 +2,9 @@
 
 ## Задание на лабораторные работы
 
-- [Лабораторная работа № 1](https://github.com/itsecd/oop/blob/main/lab1.md)
-
+- [Лабораторная работа № 1. Классы](https://github.com/itsecd/oop/blob/main/lab1.md)
+- [Лабораторная работа № 2. Управление ресурсами](https://github.com/itsecd/oop/blob/main/lab2.md)
+- [Лабораторная работа № 3. Наследование и полиморфизм](https://github.com/itsecd/oop/blob/main/lab3.md)
 
 ## Учебные материалы
 
