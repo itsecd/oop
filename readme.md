@@ -2,7 +2,7 @@
 
 ## Задание на лабораторные работы
 
-- [Лабораторная работа № 1](https://github.com/itsecd/oop/blob/main/README1.md)
+- [Лабораторная работа № 1](https://github.com/itsecd/oop/blob/main/lab1.md)
 
 
 ## Учебные материалы
