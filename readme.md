@@ -1,5 +1,9 @@
 # Объектно-ориентированное программирование
 
+## Онлайн-лекции и их записи
+
+[https://bbb.ssau.ru/b/q7e-j8d-xrp-iua](https://bbb.ssau.ru/b/q7e-j8d-xrp-iua)
+
 ## Задание на лабораторные работы
 
 - [Лабораторная работа № 1. Классы](https://github.com/itsecd/oop/blob/main/lab1.md)
