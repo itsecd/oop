@@ -17,17 +17,18 @@
 
 ## Учебные материалы
 
-Литература:
+### Литература
 - [Lippman. C++ Primer (5th Edition)](https://www.labirint.ru/books/512910/)
 - [Sutter. C++ Coding Standards](https://www.labirint.ru/books/512945/)
 - [Meyers. Effective C++](https://www.labirint.ru/authors/47004/)
 
-Онлайн-ресурсы:
+### Онлайн-ресурсы
 - [en.cppreference.com/w/cpp](https://en.cppreference.com/w/cpp)
 - [stackoverflow.com/search](https://stackoverflow.com/search)
 - [google.com](https://www.google.com/)
 
-## Программное обеспечение:
+## Программное обеспечение
 - [cmake](https://cmake.org/)
 - [git](https://git-scm.com/)
 - [googletest](https://github.com/google/googletest)
+- [notepad++](https://notepad-plus-plus.org/)
