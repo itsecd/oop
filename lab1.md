@@ -26,8 +26,6 @@
   - [Вариант Sequence1](#вариант-sequence1)
   - [TBD Вариант Sequence2](#вариант-sequence2)
   - [TBD Вариант Sequence3](#вариант-sequence3)
-  - [TBD Вариант UIElement1](#вариант-uielement1)
-  - [TBD Вариант UIElement2](#вариант-uielement2)
   - [TBD Вариант Vehicle1](#вариант-vehicle1)
   - [TBD Вариант Vehicle2](#вариант-vehicle2)
 
@@ -371,28 +369,6 @@ TODO
 ### Вариант Sequence3
 
 Последовательность чисел `Sequence`.
-
-- Поддерживаемые виды
-  - TODO
-- Состояние
-  - TODO
-- Функционал
-  - TODO
-
-### Вариант UIElement1
-
-Элементы графического интерфейса `UIElement`.
-
-- Поддерживаемые виды
-  - TODO
-- Состояние
-  - TODO
-- Функционал
-  - TODO
-
-### Вариант UIElement2
-
-Элементы графического интерфейса `UIElement`.
 
 - Поддерживаемые виды
   - TODO
