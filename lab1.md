@@ -14,7 +14,6 @@
   - [Вариант Chess1](#вариант-chess1)
   - [Вариант Chess2](#вариант-chess2)
   - [TBD Вариант Class](#вариант-class)
-  - [TBD Вариант FederalSubject](#вариант-federalsubject)
   - [Вариант Figure1](#вариант-figure1)
   - [Вариант Figure2](#вариант-figure2)
   - [Вариант Figure3](#вариант-figure3)
@@ -27,7 +26,6 @@
   - [Вариант Sequence1](#вариант-sequence1)
   - [TBD Вариант Sequence2](#вариант-sequence2)
   - [TBD Вариант Sequence3](#вариант-sequence3)
-  - [TBD Вариант Storage](#вариант-storage)
   - [TBD Вариант UIElement1](#вариант-uielement1)
   - [TBD Вариант UIElement2](#вариант-uielement2)
   - [TBD Вариант Vehicle1](#вариант-vehicle1)
@@ -373,17 +371,6 @@ TODO
 ### Вариант Sequence3
 
 Последовательность чисел `Sequence`.
-
-- Поддерживаемые виды
-  - TODO
-- Состояние
-  - TODO
-- Функционал
-  - TODO
-
-### Вариант Storage
-
-Устройства постоянного запоминания информации `Storage`.
 
 - Поддерживаемые виды
   - TODO
