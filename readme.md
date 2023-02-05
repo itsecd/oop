@@ -28,7 +28,8 @@
 - [google.com](https://www.google.com/)
 
 ## Программное обеспечение
-- [cmake](https://cmake.org/)
-- [git](https://git-scm.com/)
-- [googletest](https://github.com/google/googletest)
-- [notepad++](https://notepad-plus-plus.org/)
+- [CMake](https://cmake.org/)
+- [Git](https://git-scm.com/)
+- [GoogleTest](https://github.com/google/googletest)
+- [Notepad++](https://notepad-plus-plus.org/)
+- [Visual Studio](https://visualstudio.microsoft.com/vs/)
