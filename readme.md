@@ -27,7 +27,7 @@
 - [stackoverflow.com/search](https://stackoverflow.com/search)
 - [google.com](https://www.google.com/)
 
-## Программное обеспечение
+### Программное обеспечение
 - [CMake](https://cmake.org/)
 - [Git](https://git-scm.com/)
 - [GoogleTest](https://github.com/google/googletest)
