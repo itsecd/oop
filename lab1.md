@@ -9,21 +9,21 @@
 - [Варианты](#варианты)
   - [Демонстрационный вариант](#демонстрационный-вариант)
   - [Вариант 1: Account](#вариант-1-account)
-  - [Вариант 2: Character](#вариант-2-character)
-  - [Вариант 3: Chess1](#вариант-3-chess1)
-  - [Вариант 4: Chess2](#вариант-4-chess2)
+  - [Вариант 2: Character](#вариант-2-character) `*`
+  - [Вариант 3: Chess1](#вариант-3-chess1) `*`
+  - [Вариант 4: Chess2](#вариант-4-chess2) `*`
   - [Вариант 5: Citizen](#вариант-5-citizen)
   - [Вариант 6: Class](#вариант-6-class)
   - [Вариант 7: Employee](#вариант-7-employee)
   - [Вариант 8: Figure1](#вариант-8-figure1)
   - [Вариант 9: Figure2](#вариант-9-figure2)
   - [Вариант 10: Figure3](#вариант-10-figure3)
-  - [Вариант 11: FileSystemObject](#вариант-11-filesystemobject)
+  - [Вариант 11: FileSystemObject](#вариант-11-filesystemobject) `*`
   - [Вариант 12: Function1](#вариант-12-function1)
   - [Вариант 13: Function2](#вариант-13-function2)
   - [Вариант 14: Sequence1](#вариант-14-sequence1)
   - [Вариант 15: Sequence2](#вариант-15-sequence2)
-  - [Вариант 16: Sequence3](#вариант-16-sequence3)
+  - [Вариант 16: Sequence3](#вариант-16-sequence3) `*`
   - [Вариант 17: Vehicle1](#вариант-17-vehicle1)
   - [Вариант 18: Vehicle2](#вариант-18-vehicle2)
 
