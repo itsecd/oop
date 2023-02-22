@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 # Включаем высокий уровень предупреждений для MSVC
 if(MSVC)
-    # Включаем высокий уровень предупреждений
     if(CMAKE_CXX_FLAGS MATCHES "/W[0-4]")
         string(REGEX REPLACE "/W[0-4]" "/W4" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
     else()
