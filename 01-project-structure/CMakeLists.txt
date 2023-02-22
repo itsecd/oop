@@ -30,3 +30,4 @@ FetchContent_MakeAvailable(googletest)
 # Объявляем тесты
 add_executable(functions_tests "tests/functions_tests.cc")
 target_link_libraries(functions_tests functions GTest::gtest_main)
+

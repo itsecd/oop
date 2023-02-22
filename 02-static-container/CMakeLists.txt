@@ -14,3 +14,4 @@ if(MSVC)
 endif()
 
 add_executable(static_container "static_container.cc")
+
