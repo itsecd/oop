@@ -20,6 +20,7 @@ endif()
 
 add_subdirectory("example1-ratio")
 
-add_subdirectory("practice1-io")
-add_subdirectory("practice2a-vector")
-add_subdirectory("practice2b-random")
+add_subdirectory("practice1-std-iostream")
+add_subdirectory("practice2a-std-vector")
+add_subdirectory("practice2b-std-random")
+add_subdirectory("practice2c-sfml")
