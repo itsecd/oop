@@ -8,7 +8,6 @@
 // Graphics module   Shapes                                 https://www.sfml-dev.org/tutorials/2.6/graphics-shape.php
 // Graphics module   Text and fonts                         https://www.sfml-dev.org/tutorials/2.6/graphics-text.php
 
-#include <iostream>
 #include <vector>
 
 #include <SFML/Graphics.hpp>
@@ -36,13 +35,15 @@ int main() {
         window.close();
         break;
       case sf::Event::MouseButtonPressed:
+        const float radius = 10;
+
         auto pos = sf::Vector2f(e.mouseButton.x, e.mouseButton.y);
 
         auto color_idx = static_cast<int>(clock.getElapsedTime().asSeconds()) % colors.size();
         auto color = colors[color_idx];
 
-        sf::CircleShape circle(10);
-        circle.setPosition(pos - sf::Vector2f(10, 10));
+        sf::CircleShape circle(radius);
+        circle.setPosition(pos - sf::Vector2f(radius, radius));
         circle.setFillColor(color);
         circles.push_back(circle);
 
