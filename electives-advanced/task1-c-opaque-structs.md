@@ -7,6 +7,8 @@
 - Не позднее, чем 1 неделя после сдачи второй лабораторной работы.
   - Для тех, кто сдал вторую лабораторную работу до 19 февраля, крайний срок - 26 февраля.
 
+
+
 ## Задание
 
 Выполните свой вариант второй лабораторной работы на чистом Cи с использованием непрозрачных структур.
@@ -22,7 +24,10 @@
 - В файле `CMakeLists.txt` в функции `project` в качестве второго аргумента укажите `C`.
 - Файлы исходного кода снабжайте расширением `.c`.
 
-См. также:
+
+
+## Полезные ссылки
+
 - [(Memfault/Interrupt) Practical design patterns: opaque pointers and objects in C](https://interrupt.memfault.com/blog/opaque-pointers)
 - [(Wikipedia) Opaque data type](https://en.wikipedia.org/wiki/Opaque_data_type)
 - [(Wikipedia) Opaque pointer](https://en.wikipedia.org/wiki/Opaque_pointer)
