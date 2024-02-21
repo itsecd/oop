@@ -18,6 +18,8 @@ if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
   endif()
 endif()
 
-add_executable("example1-ratio" "example1-ratio/main.cpp")
+add_subdirectory("example1-ratio")
 
-add_executable("practice1-io" "practice1-io/main.cpp")
+add_subdirectory("practice1-io")
+add_subdirectory("practice2a-vector")
+add_subdirectory("practice2b-random")
