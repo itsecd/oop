@@ -16,6 +16,7 @@
 
 [Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
 1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
+1. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
 
 
 
