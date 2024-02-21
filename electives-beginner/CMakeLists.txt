@@ -11,3 +11,7 @@ add_executable("lecture2-for7"     "lecture2-if-while-for/for7.cpp")
 add_executable("lecture2-if8"      "lecture2-if-while-for/if8.cpp")
 add_executable("lecture2-series13" "lecture2-if-while-for/series13.cpp")
 add_executable("lecture2-while9"   "lecture2-if-while-for/while9.cpp")
+
+add_executable("lecture3-printf"   "lecture3-func/printf.cpp")
+add_executable("lecture3-proc34"   "lecture3-func/proc34.cpp")
+add_executable("lecture3-recur1"   "lecture3-func/recur1.cpp")
