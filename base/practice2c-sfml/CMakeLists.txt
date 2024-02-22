@@ -24,6 +24,10 @@ if(WIN32)
     PRE_BUILD COMMAND ${CMAKE_COMMAND} -E copy ${SFML_SOURCE_DIR}/extlibs/bin/$<IF:$<EQUAL:${CMAKE_SIZEOF_VOID_P},8>,x64,x86>/openal32.dll $<TARGET_FILE_DIR:${PROJECT_NAME}>
     VERBATIM
   )
+
+  # Console removal
+  # set_property(TARGET ${PROJECT_NAME} PROPERTY WIN32_EXECUTABLE TRUE)
+  # target_link_libraries(${PROJECT_NAME} PRIVATE sfml-main)
 endif()
 
 install(TARGETS ${PROJECT_NAME})
