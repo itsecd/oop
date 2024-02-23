@@ -5,7 +5,7 @@
 [Подготовка к выполнению лабораторных работ](base/labs/lab0-preparation.md)
 1. [Ввод-вывод](base/labs/lab1-io.md)
 1. [Классы](base/labs/lab2-classes.md)
-1. Контейнеры
+1. [Контейнеры](base/labs/lab3-containers.md)
 1. Полиморфные классы
 1. TUI
 1. \* GUI (факультативно)
