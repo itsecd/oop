@@ -64,7 +64,7 @@ int main() {
 В С++ целочисленное деление на 0 приведёт к
 [неопределённому поведению](https://ru.wikipedia.org/w/index.php?title=%D0%9D%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5&stable=1).
 Чтобы избежать неопределённого поведения, можно сообщить вызывающему коду об ошибке:
-создать объект исключения (здесь подходит тип `std::logic_error`) с описанием ошибки
+создать объект исключения (здесь больше всего подходит тип `std::logic_error`) с описанием ошибки
 и **сгенерировать ("бросить", "кинуть") исключение** с помощью оператора `throw`:
 
 ```cpp
@@ -74,7 +74,7 @@ using namespace std;
 
 int div(int a, int b) {
   if (b == 0){
-    throw runtime_error("Division by zero!");
+    throw logic_error("Division by zero!");
   }
   return a / b;
 }
@@ -133,7 +133,7 @@ using namespace std;
 
 int div(int a, int b) {
   if (b == 0){
-    throw runtime_error("Division by zero!");
+    throw logic_error("Division by zero!");
   }
   return a / b;
 }
@@ -149,7 +149,7 @@ int main() {
     cout << compute(1, 0, 42);
     cout << "\nOK\n";
   }
-  catch (const runtime_error& e) {
+  catch (const logic_error& e) {
     cout << e.what() << '\n';
   }
   return 0;
@@ -161,7 +161,7 @@ int main() {
 
 - Исключение будет считаться обработанным только в том случае, когда найдётся обработчик,
   который может обработать исключение соответствующего типа.
-  Если `compute` сгенерирует исключение другого типа (не `runtime_error`),
+  Если `compute` сгенерирует исключение другого типа (не `logic_error`),
   то вышеприведённый обработчик не выполнится, и исключение полетит дальше,
   то есть будет прервана уже сама функция `main` (так как в данном случае это точка входа,
   то исключение обработать будет уже некому и программа аварийно прервёт свою работу).
