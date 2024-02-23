@@ -25,7 +25,10 @@
 Исключение представляет из себя временный объект одного из специальных типов.
 Могут использоваться типы из [&lt;stdexcept&gt;](https://en.cppreference.com/w/cpp/header/stdexcept).
 Для первоначального ознакомления мы рекомендуем ограничиться
-использованием типов `std::runtime_error` и `std::logic_error`.
+использованием типов
+[`std::runtime_error`](https://en.cppreference.com/w/cpp/error/runtime_error)
+и
+[`std::logic_error`](https://en.cppreference.com/w/cpp/error/logic_error).
 
 Объект исключения используется для сигнализации об ошибке.
 Цель объекта-исключения состоит в том, чтобы передать информацию из точки,
