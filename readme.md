@@ -12,15 +12,21 @@
 
 
 
-## Факультатив (advanced)
+## Примеры с лекций и практик
 
-[Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
-1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
-1. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
+Лекции:
+1. [`Ratio` (v1)](base/example1-ratio)
+2. [`Ratio` (v2)](base/example2-ratio): с исключением и перегрузкой операторов
+
+Практики:
+1. [std::iostream](base/practice1-std-iostream)
+1. [std::vector](base/practice2-std-vector),
+   [std::random](base/practice2-std-random),
+   [sfml](base/practice2-sfml)
 
 
 
-## Факультатив (beginner)
+## Факультатив (для "начинающих")
 
 Занятия проводятся в 608-18.
 
@@ -35,6 +41,14 @@
 | 5. Двумерные массивы       | ⌛ 6 марта (ср), 15:15 (перенос с субботы) |
 | 6. Структуры               | ⌛ 16 марта (сб), 11:30 |
 | ?                          | ⌛ |
+
+
+
+## Факультатив (для "продвинутых")
+
+[Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
+1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
+1. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
 
 
 
