@@ -20,9 +20,9 @@
 
 Практики:
 1. [std::iostream](base/practice1-std-iostream)
-1. [std::vector](base/practice2-std-vector),
-   [std::random](base/practice2-std-random),
-   [sfml](base/practice2-sfml)
+1. [std::vector](base/practice2a-std-vector),
+   [std::random](base/practice2b-std-random),
+   [sfml](base/practice2c-sfml)
 
 
 
