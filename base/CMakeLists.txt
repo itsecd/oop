@@ -19,6 +19,7 @@ if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
 endif()
 
 add_subdirectory("example1-ratio")
+add_subdirectory("example2-ratio")
 
 add_subdirectory("practice1-std-iostream")
 add_subdirectory("practice2a-std-vector")
