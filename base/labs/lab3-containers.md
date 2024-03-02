@@ -633,12 +633,16 @@ IntArray a(5);
 
 Конструктор копирования (осуществляет глубокое копирование):
 ```cpp
+#include <cstring>
+
 class IntArray {
 public:
   IntArray(const IntArray& other) : _ptr(new int[other._size]), _size(other._size) {
-    for (size_t i = 0; i < _size; ++i) {
-      _ptr[i] = other._ptr[i];
-    }
+    // Здесь используем memcpy, т. к. элемент массива - один из примитивных типов.
+    // Если в качестве элемента массива выступают сложные объекты,
+    // для которых операция копирования в общем случае не сводится к тупому физическому копированию памяти,
+    // необходимо использовать std::copy (<algorithm>) или писать явный цикл.
+    std::memcpy(_ptr, other._ptr, sizeof(int) * _size);
   }
 
   // ...
