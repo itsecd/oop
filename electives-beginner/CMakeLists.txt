@@ -15,3 +15,8 @@ add_executable("lecture2-while9"   "lecture2-if-while-for/while9.cpp")
 add_executable("lecture3-printf"   "lecture3-func/printf.cpp")
 add_executable("lecture3-proc34"   "lecture3-func/proc34.cpp")
 add_executable("lecture3-recur1"   "lecture3-func/recur1.cpp")
+
+add_executable("lecture4-array05"  "lecture4-array/array05.cpp")
+add_executable("lecture4-array95"  "lecture4-array/array95.cpp")
+add_executable("lecture4-demo"     "lecture4-array/demo.cpp")
+add_executable("lecture4-minmax10" "lecture4-array/minmax10.cpp")
