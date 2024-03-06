@@ -32,14 +32,16 @@ int find_first_extremum_v1(int* data, size_t n) {
     return min_idx < max_idx ? min_idx : max_idx;
 }
 
-int find_first_min(int* data, size_t n) {
+typedef bool (*comparer)(int a, int b); // a < b -> true
+
+int find_first(int* data, size_t n, comparer c) {
     if (n == 0) {
         return -1;
     }
 
     int min_idx = 0;
     for (size_t i = 1; i < n; ++i) {
-        if (data[i] < data[min_idx]) {
+        if (c(data[i], data[min_idx])) {
             min_idx = i;
         }
     }
@@ -47,24 +49,17 @@ int find_first_min(int* data, size_t n) {
     return min_idx;
 }
 
-int find_first_max(int* data, size_t n) {
-    if (n == 0) {
-        return -1;
-    }
+bool min_comparer(int a, int b) {
+    return a < b;
+}
 
-    int max_idx = 0;
-    for (size_t i = 1; i < n; ++i) {
-        if (data[i] > data[max_idx]) {
-            max_idx = i;
-        }
-    }
-
-    return max_idx;
+bool max_comparer(int a, int b) {
+    return a > b;
 }
 
 int find_first_extremum_v2(int* data, size_t n) {
-    int min_idx = find_first_min(data, n);
-    int max_idx = find_first_max(data, n);
+    int min_idx = find_first(data, n, min_comparer);
+    int max_idx = find_first(data, n, max_comparer);
 
     if (min_idx < max_idx) {
         return min_idx;

@@ -20,3 +20,5 @@ add_executable("lecture4-array05"  "lecture4-array/array05.cpp")
 add_executable("lecture4-array95"  "lecture4-array/array95.cpp")
 add_executable("lecture4-demo"     "lecture4-array/demo.cpp")
 add_executable("lecture4-minmax10" "lecture4-array/minmax10.cpp")
+
+add_executable("lecture5-image"    "lecture5-image/main.cpp")
