@@ -49,7 +49,7 @@
 [Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
 1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
 1. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
-1. Small String Optimization (задача будет опубликована 7-8 марта)
+1. [Small String Optimization](electives-advanced/task3-sso.md)
 
 
 
