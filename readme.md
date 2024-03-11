@@ -15,14 +15,15 @@
 ## Примеры с лекций и практик
 
 Лекции:
-1. [`Ratio` (v1)](base/example1-ratio)
-2. [`Ratio` (v2)](base/example2-ratio): с исключением и перегрузкой операторов
+1. [`Ratio`](base/example1-ratio) (v1)
+1. [`Ratio`](base/example2-ratio) (v2: с исключением и перегрузкой операторов)
 
 Практики:
 1. [std::iostream](base/practice1-std-iostream)
 1. [std::vector](base/practice2a-std-vector),
    [std::random](base/practice2b-std-random),
    [sfml](base/practice2c-sfml)
+1. [std::string](base/practice3-std-string)
 
 
 
