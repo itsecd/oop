@@ -16,14 +16,24 @@
 
 Лекции:
 1. [`Ratio`](base/example1-ratio) (v1)
-1. [`Ratio`](base/example2-ratio) (v2: с исключением и перегрузкой операторов)
+2. [`Ratio`](base/example2-ratio) (v2: с исключением и перегрузкой операторов)
 
 Практики:
 1. [std::iostream](base/practice1-std-iostream)
-1. [std::vector](base/practice2a-std-vector),
+2. [std::vector](base/practice2a-std-vector),
    [std::random](base/practice2b-std-random),
    [sfml](base/practice2c-sfml)
-1. [std::string](base/practice3-std-string)
+3. [std::string](base/practice3-std-string)
+
+
+
+## Факультатив (для "продвинутых")
+
+[Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
+1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
+2. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
+3. [Small String Optimization](electives-advanced/task3-sso.md)
+4. [SharedPtr](electives-advanced/task4-shared-ptr.md)
 
 
 
@@ -42,15 +52,6 @@
 | 5.1. Указатели на функции<br/>5.2. Двумерные массивы | ✓ 6 марта (ср), 15:15 (перенос с субботы) |
 | 6. Структуры                                         | ✓ 16 марта (сб), 11:30 |
 | Консультации                                         | По тем средам, когда есть практика по ООП, в 15:15 |
-
-
-
-## Факультатив (для "продвинутых")
-
-[Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
-1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
-1. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
-1. [Small String Optimization](electives-advanced/task3-sso.md)
 
 
 
