@@ -30,10 +30,10 @@
 ## Факультатив (для "продвинутых")
 
 [Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
-1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md)
-2. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md)
-3. [Small String Optimization](electives-advanced/task3-sso.md)
-4. [SharedPtr](electives-advanced/task4-shared-ptr.md)
+1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md) (1 неделя после сдачи 2-ой лабы)
+2. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md) (до 10 марта)
+3. [Small String Optimization](electives-advanced/task3-sso.md) (до 31 марта)
+4. [SharedPtr](electives-advanced/task4-shared-ptr.md) (до 14 апреля)
 
 
 
