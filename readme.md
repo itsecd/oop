@@ -4,11 +4,11 @@
 
 [Подготовка к выполнению лабораторных работ](base/labs/lab0-preparation.md)
 1. [Ввод-вывод](base/labs/lab1-io.md)
-1. [Классы](base/labs/lab2-classes.md)
-1. [Контейнеры](base/labs/lab3-containers.md)
-1. Полиморфные классы
-1. TUI
-1. \* GUI (факультативно)
+2. [Классы](base/labs/lab2-classes.md)
+3. [Контейнеры](base/labs/lab3-containers.md)
+4. Полиморфные классы
+5. TUI
+6. \* GUI (факультативно)
 
 
 
@@ -30,10 +30,14 @@
 ## Факультатив (для "продвинутых")
 
 [Порядок сдачи усложнённых задач](electives-advanced/procedure.md)
-1. [Непрозрачные структуры в Си](electives-advanced/task1-c-opaque-structs.md) (1 неделя после сдачи 2-ой лабы)
-2. [Графика с использованием SFML](electives-advanced/task2-sfml-graphics.md) (до 10 марта)
+1. [Opaque Structs](electives-advanced/task1-opaque-structs.md) (1 неделя после сдачи 2-ой лабы)
+2. [SFML](electives-advanced/task2-sfml.md) (до 10 марта)
 3. [Small String Optimization](electives-advanced/task3-sso.md) (до 31 марта)
 4. [SharedPtr](electives-advanced/task4-shared-ptr.md) (до 14 апреля)
+5. ⌛ Vector & Set (Part 1: STL iterators)
+6. ⌛ Vector & Set (Part 2: Polymorphic iterators)
+7. ⌛ Map
+8. ⌛ Paint
 
 
 

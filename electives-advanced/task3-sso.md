@@ -1,5 +1,5 @@
 # Усложнённая задача № 3
-# Small String Optimization (SSO)
+# Small String Optimization
 
 ## Срок сдачи
 
