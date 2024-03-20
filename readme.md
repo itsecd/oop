@@ -34,10 +34,12 @@
 2. [SFML](electives-advanced/task2-sfml.md) (до 10 марта)
 3. [Small String Optimization](electives-advanced/task3-sso.md) (до 31 марта)
 4. [SharedPtr](electives-advanced/task4-shared-ptr.md) (до 14 апреля)
-5. ⌛ Vector & Set (Part 1: STL iterators)
-6. ⌛ Vector & Set (Part 2: Polymorphic iterators)
-7. ⌛ Map
-8. ⌛ Paint
+5. Задача с практики № 4
+6. ⌛ Моделирование виртуальных функций на чистом Си
+7. ⌛ Vector & Set (Part 1: STL iterators)
+8. ⌛ Vector & Set (Part 2: Polymorphic iterators)
+9. ⌛ Map
+10. ⌛ Paint
 
 
 
