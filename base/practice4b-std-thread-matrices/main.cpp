@@ -11,7 +11,7 @@ private:
   size_t _cols;
 
 public:
-  Matrix(size_t rows, size_t cols) : _data(rows* cols, 0), _rows(rows), _cols(cols) { }
+  Matrix(size_t rows, size_t cols) : _data(rows * cols, 0), _rows(rows), _cols(cols) { }
 
   size_t rows() const noexcept {
     return _rows;
