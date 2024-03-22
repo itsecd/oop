@@ -817,7 +817,7 @@ float min_location(const Function& f, const float x1, const float x2, const floa
   
   float x = x1 + step;
   while (x <= x2) {
-    float y = f.compute(x);
+    const float y = f.compute(x);
     if (y < min_y) {
       min_x = x;
       min_y = y;
@@ -856,9 +856,9 @@ private:
   float _c;
   
 public:
-  QuadraticFunction(float a, float b, float c) : _a(a), _b(b), _c(c) { }
+  QuadraticFunction(const float a, const float b, const float c) : _a(a), _b(b), _c(c) { }
   
-  float compute(float x) const override {
+  float compute(const float x) const override {
     return _a * x * x + _b * x + _c;
   }
 };
@@ -872,7 +872,7 @@ public:
 Это квадратичная функция с параметрами $a = 2$, $b = 1$ и $c = 0$:
 ```cpp
 int main() {
-  QuadraticFunction qf(2, 1, 0);
+  const QuadraticFunction qf(2, 1, 0);
   std::cout << "min_location = " << min_location(qf, -10, 10, 0.01) << '\n';
   // Возможный вывод: -0.249866
 }
