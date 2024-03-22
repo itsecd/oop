@@ -6,7 +6,7 @@
 1. [Ввод-вывод](base/labs/lab1-io.md)
 2. [Классы](base/labs/lab2-classes.md)
 3. [Контейнеры](base/labs/lab3-containers.md)
-4. Полиморфные классы
+4. [Полиморфные классы](base/labs/lab4-polymorphism.md)
 5. TUI
 6. \* GUI (факультативно)
 
