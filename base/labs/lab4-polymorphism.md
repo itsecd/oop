@@ -748,8 +748,8 @@ struct A {
 - [Kotlin: ключевое слово `interface`](https://kotlinlang.org/docs/interfaces.html)
 - [PHP: ключевое слово `interface`](https://www.php.net/manual/en/language.oop5.interfaces.php)
 - [Rust: ключевое слово `trait`](https://doc.rust-lang.org/book/ch10-02-traits.html)
-- [TypeScript: ключевое слово `interface`](https://www.typescriptlang.org/docs/handbook/2/objects.html)
 - [Swift: ключевое слово `protocol`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols)
+- [TypeScript: ключевое слово `interface`](https://www.typescriptlang.org/docs/handbook/2/objects.html)
 
 Обратите внимание, что во всех примерах по вышеперечисленным ссылкам у всех языков нет "технического бремени",
 которое есть у C++ (связанное с явным запретом операций копирования и определением виртуального деструктора).
@@ -772,7 +772,7 @@ struct A {
 Пусть необходимо написать программу, которая должна работать с математическими функциями одного аргумента.
 Данную задачу можно рассматривать как разработку компонента
 [системы компьютерной алгебры](https://ru.wikipedia.org/w/index.php?title=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D1%8B&stable=1),
-например, такой как [Wolfram Alpha](https://www.wolframalpha.com/).
+которая, в свою очередь, может являться частью такого сложного программного комплекса, как [Wolfram Alpha](https://www.wolframalpha.com/).
 
 Конкретные математические функции могут быть совершенно разными и предусмотреть заранее
 все те математические функции, которые могут понадобиться, невозможно.
